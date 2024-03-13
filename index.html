@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+    <title>Encuentra tu SuperHéroe</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="./assets/img/sh2.jpg" alt="Dibujo con texto Super hero">
+            <h1>SuperHero Chile</h1>
+        </div>
+    </header>
+
+    <section id="main-section">
+        <img src="./assets/img/sh1.jpg" alt="Dibujo con texto Super hero">
+        <form id="search-form">
+            <label for="heroId">Ingresa el número del héroe:</label>
+            <input type="text" id="heroId" name="heroId" required>
+            <button type="button" onclick="searchHero()">Buscar</button>
+        </form>
+
+        <div id="result-section">
+        </div>
+    </section>
+    <div id="chart-container" style="height: 300px;"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/3.2.10/canvasjs.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

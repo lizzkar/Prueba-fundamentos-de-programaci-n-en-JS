@@ -1,0 +1,65 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+header {
+    background-color: black;
+    color: #f7f6ec;
+    padding: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+
+#main-section {
+    margin: 20px;
+    text-align: center;
+}
+
+
+#search-form {
+    margin-bottom: 20px;
+}
+
+
+button {
+    font-family: 'Permanent Marker', cursive;
+    background-color: #4c99af;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #20046c;
+}
+
+
+.hero-card img {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+
+.hero-card {
+    text-align: justify;
+}
